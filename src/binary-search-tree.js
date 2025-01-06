@@ -15,7 +15,9 @@ class Node {
 }
 
 class BinarySearchTree {
-
+  constructor() {
+    this._root = null;
+  }
   root() {
     return this._root;
   }
